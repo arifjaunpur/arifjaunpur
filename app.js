@@ -14,7 +14,9 @@ app.use((req, res, next) => {
 
 app.use(express.static('./public'));
 
-
+app.get('/api/v1/name/:name', (req, res) => {
+	res.json({name: req.params.name || 'Unknown'});
+})
 
 app.use((req, res) => {
 	res.send('You are able to access');

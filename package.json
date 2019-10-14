@@ -1,0 +1,29 @@
+{
+  "name": "arifjaunpur",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "app.js",
+  "engines": {
+    "node": "12"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://arifjaunpur@github.com/arifjaunpur/arifjaunpur.git"
+  },
+  "keywords": [
+    "arifjaunpur",
+    "website"
+  ],
+  "author": "Arif Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifjaunpur/arifjaunpur/issues"
+  },
+  "homepage": "https://github.com/arifjaunpur/arifjaunpur#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
